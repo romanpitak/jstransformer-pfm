@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-pfm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Piták Flavored Markdown support for JSTransformers",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,9 @@
     "url": "https://github.com/romanpitak/jstransformer-pfm.git"
   },
   "keywords": [
-    "pfm", "markdown", "jstransformer"
+    "pfm",
+    "markdown",
+    "jstransformer"
   ],
   "author": "Roman Piták <roman@pitak.net>",
   "license": "MIT",
