@@ -6,7 +6,7 @@ Load modules
 
 ## Expose
 
-    exports.name = 'fpm'
+    exports.name = 'pfm'
     exports.outputFormat = 'html'
     exports.inputFormats = ['marked', 'markdown', 'md']
     exports.render = (str, options) ->
