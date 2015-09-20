@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-pfm",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Piták Flavored Markdown support for JSTransformers",
   "main": "lib/index.js",
   "scripts": {
