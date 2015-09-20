@@ -2,12 +2,12 @@
 
 Load modules
 
-    fpm = require 'pfm'
+    pfm = require 'pfm'
 
 ## Expose
 
-    exports.name = 'pfm'
-    exports.outputFormat = 'html'
-    exports.inputFormats = ['marked', 'markdown', 'md']
-    exports.render = (str, options) ->
+    module.exports.name = 'pfm'
+    module.exports.outputFormat = 'html'
+    module.exports.inputFormats = ['marked', 'markdown', 'md']
+    module.exports.render = (str, options) ->
         return pfm(str, options)
