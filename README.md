@@ -1,20 +1,17 @@
-# jstransformer-pfm
+# jstransformer-pfm #
 
-[PFM](http://npm.im/pfm) support for [JSTransformers](http://github.com/jstransformers).
+[![npm](https://img.shields.io/npm/v/jstransformer-pfm.svg)](https://www.npmjs.com/package/jstransformer-pfm)
+[![npm](https://img.shields.io/npm/dt/jstransformer-pfm.svg)](https://www.npmjs.com/package/jstransformer-pfm)
+[![Gemnasium](https://img.shields.io/gemnasium/romanpitak/jstransformer-pfm.svg)](https://www.npmjs.com/package/jstransformer-pfm)
+[![npm](https://img.shields.io/npm/l/jstransformer-pfm.svg)](https://www.npmjs.com/package/jstransformer-pfm)
 
-## Installation
+[Piták Flavored Markdown](http://npm.im/pfm) support for [JSTransformers](http://github.com/jstransformers).
+
+- highlighting is done by [`pygmentize`](http://pygments.org)
+- In paragraphs, `~` renders to `&nbsp;`
+- In inline code, `~` renders to `&Tilde;`
+- Link to external hosts have `target="_blank"`
+
+### Installation ###
 
     npm install jstransformer-pfm
-
-## API
-
-```js
-var marked = require('jstransformer')(require('jstransformer-pfm'))
-
-foo.render('# Hello World!').body
-//=> '<h1>Hello World!</h1>'
-```
-
-## License
-
-MIT
